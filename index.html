@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ملفي الشخصي</title>
+    <link rel="stylesheet" href="salem.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                 <li><button id="theme-toggle">🌙</button></li>
+                 <li><a href="#contact">تواصل معي</a></li>
+                <li><a href="#projects">المشاريع</a></li>
+                <li><a href="#skills">المهارات</a></li>
+                <li><a href="#about">من أنا</a></li>
+            </ul>
+        </nav>
+    </header>    
+
+    <main>
+        <!-- قسم من أنا -->
+        <section id="about" class="section">
+            <div class="content">
+                <h1>مرحبًا بك في عالمي أنا سالم ، مزيج من الإبداع والتكنولوجيا</h1>
+                <p></p>أنا شخص متعدد المواهب! أعمل كمصمم جرافيك، حيث أبدع تصاميم بصرية مميزة تعكس هوية العلامات التجارية. في مجال التجارة الإلكترونية، أدير متجرًا رقميًا يتيح للعملاء تجربة تسوق سلسة. بالإضافة إلى ذلك، أعمل كمصور محترف، ألتقط لحظات جميلة وصور إبداعية تعبر عن الجمال من خلال عدستي. باختصار، أنا مزيج من الإبداع والتكنولوجيا والتصوير! 🎨💻📸></p>
+                <img src="salem.jpg" alt="صورة شخصية" class="profile-pic">
+            </div>
+        </section>
+
+        <!-- قسم المهارات -->
+        <section id="skills" class="section">
+            <h2>المهارات</h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <p>Graphic Design</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>E-commerce</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>photographer</p>
+                    <div class="progress">
+                        <div class="progress-bar" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- قسم المشاريع -->
+        <section id="projects" class="section">
+            <h2>المشاريع</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="sa.jpg" alt="Graphic Designer Image" class="project-image">
+                    <h3>project 1</h3>
+                    <p>تصميم لوحات اعلانية لنشاط تجارية</p>
+                    <a href="#" target="_blank">عرض المشروع</a>
+                </div>
+                <div class="project-card">
+                    <img src="sal.jpg" alt="E-commerce" class="project-image">
+                    <h3>project 2</h3>
+                    <p>منصة عبر الإنترنت تتيح للأفراد أو الشركات بيع وشراء المنتجات أو الخدمات بسهولة عبر الإنترنت باستخدام وسائل الدفع والشحن الإلكترونية 💻🛒 </p>
+                    <a href="#" target="_blank">عرض المشروع</a>
+                </div>
+                <div class="project-card">
+                    <img src="sale.jpg" alt="E-commerce" class="project-image">
+                    <h3>project 3</h3>
+                    <p>مجموعة صور تتضمن تقديم خدمات تصوير احترافية للأفراد أو الشركات، بما في ذلك تصوير المناسبات، المنتجات، والطبيعة، باستخدام معدات متقدمة لإنتاج صور عالية الجودة. 📸✨</p>
+                    <a href="#" target="_blank">عرض المشروع</a>
+                </div>
+            </div>
+        </section>
+        
+
+
+        <!-- نموذج الاتصال -->
+        <section id="contact" class="section">
+            <h2>تواصل معي</h2>
+            <form id="contact-form">
+                <label for="name">الاسم</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">الرسالة</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 سالم - جميع الحقوق محفوظة</p>
+    </footer>
+
+    <script src="salem.js"></script>
+</body>
+</html>
